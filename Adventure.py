@@ -4,13 +4,17 @@ from textwrap import fill as raptext
 import textwrap
 
 import re
+
 tryagain_count = 0
+
+
 tryagain = "y"
 while tryagain.lower() == "y":
     
+    if tryagain_count >= 5:
+        print("Thank you for playing")    
         
     while tryagain_count <= 0:
-        user_choice = None
         player_is_dead = None
         player_friend_dead = None
         Outlaw = None
