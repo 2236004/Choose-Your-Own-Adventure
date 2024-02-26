@@ -20,7 +20,7 @@ while tryagain.lower() == "y":
         Outlaw = None
         print(raptext("""Welcome! I'm thrilled to share an exciting story with you. But before we dive in, I'd like 
 to ask you a few questions. After typing your answers, remember to press the enter key to proceed. 
-Let's embark on this journey together, be sure to enter text and press the enter key."""))
+Let's embark on this journey together!"""))
         print("\n")
         break        
         
