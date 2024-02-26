@@ -117,8 +117,8 @@ they are victims of circumstance, pawns in a game of power and corruption. Despi
 they have accepted their fate with stoic resignation, determined to survive the ordeal with dignity
 intact. As they navigate the harsh realities of prison life, {name} and {friend} cling to the hope of 
 eventual redemption, their unwavering bond serving as a beacon of light in the darkness of their 
-shared confinement."""))
-        print("\n")    
+shared confinement.""")) 
+        print("\n")
         
         while True:
             try:
@@ -163,7 +163,6 @@ apparent. What good is the promise of legal release when one's impatience closes
 eyes to the passage of time? Their tunnel, a symbol of misguided hope, now serves as a 
 stark reminder of the limits of human ambition and the folly of chasing shadows in the
 pursuit of freedom. {friend} gets released back out into {location}"""))
-                print("\n")
                 player_is_dead = False
                 player_friend_dead = None
                 Outlaw = None
@@ -182,7 +181,6 @@ For {friend} and {name}, the journey to liberty was a testament to their cunning
 resourcefulness and a triumph of the human spirit in the face of adversity. With every
 step forward, they embraced the promise of a new beginning, their spirits unbroken by the
 trials of their past into {location}."""))
-                print("\n")
                 player_is_dead = False
                 player_friend_dead = None
                 Outlaw = True
@@ -218,7 +216,6 @@ forgotten ambitions faded into the silence of forgotten dreams. And when the fin
 fell, they left behind not tales of daring escape but the quiet resignation of lives 
 lived within the confines of their own making, their hopes and aspirations lost to the 
 relentless march of time never to step foot into {location}."""))
-                print("\n")
                 player_is_dead = True
                 player_friend_dead = None
                 Outlaw = None
@@ -233,7 +230,6 @@ self-reflection. And when the day of their scheduled release finally arrived, it
 the sweet taste of freedom and the satisfaction of knowing that they had abided by the
 law, their patience rewarded with the promise of a new beginning beyond the prison walls
 of {location}."""))
-                print("\n")
                 player_is_dead = False
                 player_friend_dead = None
                 Outlaw = None
@@ -248,7 +244,6 @@ as new evidence comes to light, revealing {name}'s innocence and overturning his
 conviction. Freed from the shackles of false accusations, {name} emerges from the shadows
 of captivity back into {location}, carrying the memory of his friend's sacrifice and the hope
 for a brighter future."""))
-                print("\n")
                 player_friend_dead = True
                 player_is_dead = False
                 Outlaw = None
@@ -316,9 +311,9 @@ leaving behind the echoes of their shattered dreams, forever lost in the abyss o
         
 
         print("\n") 
-        keepgoing = input("Do you want to place another order? Enter y or n:   ")
-        while keepgoing.lower() not in ["y", "n"]: 
-             keepgoing = input("Invalid Value: Enter y or n:  ")
+        tryagain = input("GAME OVER do you want to play again? Enter y or n:   ")
+        while tryagain.lower() not in ["y", "n"]: 
+             tryagain = input("Invalid Value: Enter y or n:  ")
         
 
         
